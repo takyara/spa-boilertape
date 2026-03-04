@@ -1,0 +1,31 @@
+# Dépendances
+node_modules/
+
+# Variables d'environnement et secrets
+.env
+.env.local
+.env.*.local
+
+# Build / dist
+dist/
+build/
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.suo
+*.swp
+*.sln
+
+# Logs
+*.log
+npm-debug.log*
+
+# Fichiers temporaires
+*.tmp
+*.temp

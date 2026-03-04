@@ -1,0 +1,19 @@
+{
+  "name": "spa-website-boilerplate",
+  "version": "1.0.0",
+  "description": "SPA Vanilla JS — boilerplate",
+  "type": "module",
+  "scripts": {
+    "dev": "npx live-server --open=/ --no-browser=false .",
+    "build": "echo 'Ajouter Vite ou Parcel pour le bundling'",
+    "lint": "npx eslint src/**/*.js",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "standard-version": "^9.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

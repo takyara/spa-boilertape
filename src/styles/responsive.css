@@ -1,0 +1,13 @@
+/* ===== RESPONSIVE (Mobile First) ===== */
+
+@media (max-width: 768px) {
+  :root { --text-4xl: 2rem; --text-3xl: 1.5rem; }
+
+  .nav__links  { display: none; }
+  .nav__burger { display: flex; }
+  section      { padding-block: var(--space-12); }
+}
+
+@media (max-width: 480px) {
+  :root { --container-pad: var(--space-4); --text-4xl: 1.75rem; }
+}
